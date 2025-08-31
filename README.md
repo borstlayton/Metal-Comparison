@@ -14,7 +14,7 @@ This project creates a simple bar chart comparing the average concentrations of 
 
 ![This is Figure.png](.\Figure.png)
 
-![This is Figure.png in github](https://github.com/borstlayton/Metal-Comparison/Figure.png)
+![This is Figure.png in github](https://github.com/borstlayton/Metal-Comparison/blob/main/Figure.png)
 
 > The script computes the average value for each metal, finds metals present in both files, and plots them side-by-side.
 
