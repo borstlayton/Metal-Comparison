@@ -6,8 +6,8 @@ This project creates a simple bar chart comparing the average concentrations of 
 
 ## What’s included
 
-- `metals_2000.xlsx` — Excel data for year 2000
-- `metals_2025.xlsx` — Excel data for year 2025
+- `metals_2000.csv` — Excel data for year 2000
+- `metals_2025.csv` — Excel data for year 2025
 - `plot_metals.py` — Python script that reads the Excel files and makes the chart
 - `requirements.txt` — List of Python packages the script needs
 - `Figure.png` — Pre-generated graph
@@ -57,21 +57,13 @@ If pip doesn’t work, try:
 python -m pip --version
 ```
 
-You should see something like Python 3.x.x.
-Check pip (Python’s package installer):
-pip --version
-
-If both show a version number, you’re good to go.
-If pip doesn’t work, try:
-python -m pip --version
-
 ---
 
 ## Step 2 — Put the files in a folder
 
 Create a folder (for example, C:\MetalChart), and place these files inside:
-- metals_2000.xlsx
-- metals_2025.xlsx
+- metals_2000.csv
+- metals_2025.csv
 - plot_metals.py
 - requirements.txt
 
@@ -91,7 +83,7 @@ python -m pip install -r requirements.txt
 ```
 
 This installs:
-- pandas (reads Excel and handles data)
+- pandas (reads csv files and handles data)
 - matplotlib (makes the chart)
 
 ---
@@ -101,7 +93,7 @@ This installs:
 Still in PowerShell, run:
 
 ```
-python helper.py
+python plot_metals.py
 ```
 
 A chart window will appear showing average concentrations for metals found in both years (2000 vs 2025). Close the chart window when you’re done.
