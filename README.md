@@ -65,12 +65,16 @@ python -m pip --version
 
 ## Step 2 — Put the files in a folder
 
-Create a folder (for example, C:\MetalChart), and place these files inside:
+Create a folder (for example, C:\MetalChart), create a subfolder called `assets`, and place these files inside:
 
-- metals_2000.csv
-- metals_2025.csv
-- plot_metals.py
-- requirements.txt
+```
+.
+├─ assets/
+│  ├─ metals_2000.csv
+│  └─ metals_2025.csv
+├─ plot_metals.py
+└─ requirements.txt
+```
 
 Open PowerShell in that folder:
 
