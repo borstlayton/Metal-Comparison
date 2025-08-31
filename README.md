@@ -12,7 +12,7 @@ This project creates a simple bar chart comparing the average concentrations of 
 - `requirements.txt` — List of Python packages the script needs
 - `Figure.png` — Pre-generated graph
 
-![This is Figure.png](https://github.com/borstlayton/Metal-Comparison/blob/main/Figure.png)
+![This is Figure.png](https://github.com/borstlayton/Metal-Comparison/blob/main/assets/Figure.png)
 
 > The script computes the average value for each metal, finds metals present in both files, and plots them side-by-side.
 
