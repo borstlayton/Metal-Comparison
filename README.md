@@ -6,11 +6,11 @@ This project creates a simple bar chart comparing the average concentrations of 
 
 ## What’s included
 
-- `metals_2000.csv` — Excel data for year 2000
-- `metals_2025.csv` — Excel data for year 2025
+- `assets/metals_2000.csv` — Excel data for year 2000
+- `assets/metals_2025.csv` — Excel data for year 2025
 - `plot_metals.py` — Python script that reads the Excel files and makes the chart
 - `requirements.txt` — List of Python packages the script needs
-- `Figure.png` — Pre-generated graph
+- `assets/Figure.png` — Pre-generated graph
 
 ![This is Figure.png](https://github.com/borstlayton/Metal-Comparison/blob/main/assets/Figure.png)
 
