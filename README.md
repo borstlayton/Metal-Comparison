@@ -88,7 +88,7 @@ python -m pip install -r requirements.txt
 ```
 
 This installs:
-- pandas (reads Excel and handles data)
+- pandas (reads csv files and handles data)
 - matplotlib (makes the chart)
 
 ---
