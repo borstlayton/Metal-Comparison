@@ -54,14 +54,6 @@ If pip doesn’t work, try:
 python -m pip --version
 ```
 
-You should see something like Python 3.x.x.
-Check pip (Python’s package installer):
-pip --version
-
-If both show a version number, you’re good to go.
-If pip doesn’t work, try:
-python -m pip --version
-
 ---
 
 ## Step 2 — Put the files in a folder
