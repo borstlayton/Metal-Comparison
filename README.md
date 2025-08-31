@@ -6,8 +6,8 @@ This project creates a simple bar chart comparing the average concentrations of 
 
 ## What’s included
 
-- `metals_2000.xlsx` — Excel data for year 2000
-- `metals_2025.xlsx` — Excel data for year 2025
+- `metals_2000.csv` — Excel data for year 2000
+- `metals_2025.csv` — Excel data for year 2025
 - `plot_metals.py` — Python script that reads the Excel files and makes the chart
 - `requirements.txt` — List of Python packages the script needs
 
