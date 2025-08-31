@@ -39,7 +39,7 @@ Verify the installation:
 - Press Windows key, type “PowerShell”, and open “Windows PowerShell”.
 - In PowerShell, type:
 
-```
+```powershell
 python --version
 ```
 
