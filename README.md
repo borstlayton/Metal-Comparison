@@ -16,7 +16,7 @@
 └─ requirements.txt
 ```
 
-![This is Figure.png](https://github.com/borstlayton/Metal-Comparison/blob/main/assets/Figure.png)
+![This is metal_concentrations.png](https://github.com/borstlayton/Metal-Comparison/blob/main/assets/metal_concentrations.png)
 
 > The script computes the average value for each metal, finds metals present in both files, and plots them side-by-side.
 
