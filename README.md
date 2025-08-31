@@ -1,16 +1,20 @@
 # Metal concentration comparison (2000 vs 2025)
 
-This project creates a simple bar chart comparing the average concentrations of metals measured in the years 2000 and 2025 from two csv files. 
+>This project creates a simple bar chart comparing the average concentrations of metals measured in the years 2000 and 2025 from two csv files. 
 
 ---
 
 ## What’s included
 
-- `assets/metals_2000.csv` — Csv data for year 2000
-- `assets/metals_2025.csv` — Csv data for year 2025
-- `plot_metals.py` — Python script that reads the Excel files and makes the chart
-- `requirements.txt` — List of Python packages the script needs
-- `assets/Figure.png` — Pre-generated graph
+```
+.
+├─ assets/
+│  ├─ metals_2000.csv
+│  ├─ metals_2025.csv
+│  └─ metal_concentrations.png
+├─ plot_metals.py
+└─ requirements.txt
+```
 
 ![This is Figure.png](https://github.com/borstlayton/Metal-Comparison/blob/main/assets/Figure.png)
 
