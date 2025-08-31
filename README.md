@@ -59,8 +59,8 @@ python -m pip --version
 ## Step 2 — Put the files in a folder
 
 Create a folder (for example, C:\MetalChart), and place these files inside:
-- metals_2000.xlsx
-- metals_2025.xlsx
+- metals_2000.csv
+- metals_2025.csv
 - plot_metals.py
 - requirements.txt
 
@@ -90,7 +90,7 @@ This installs:
 Still in PowerShell, run:
 
 ```
-python helper.py
+python plot_metals.py
 ```
 
 A chart window will appear showing average concentrations for metals found in both years (2000 vs 2025). Close the chart window when you’re done.
